@@ -16,7 +16,7 @@ class DosenController extends Controller
 
     public function showBlog()
     {
-        $nama = "Rafief";
+        $nama = "Rafief Chalvani";
         $alamat = "Surabaya";
         $umur = 19;
         return view('linktree', ['nama' => $nama, 'alamat' => $alamat, 'umur' => $umur]);
