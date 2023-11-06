@@ -1,0 +1,43 @@
+/* CSS untuk Warna Latar Belakang dan Teks */
+body {
+    background-color: #D2B48C; /* Warna coklat */
+    color: #FFF8DC; /* Warna krem untuk teks */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  /* CSS untuk Navbar */
+  .navbar {
+    background-color: #D2B48C; /* Warna coklat */
+    padding: 10px 0;
+  }
+  .navbar a {
+    color: #FFF8DC;
+    text-decoration: none;
+  }
+  /* CSS untuk Jumbotron */
+  .jumbotron {
+    background-color: #D2B48C; /* Warna coklat */
+    color: #FFF8DC; /* Warna krem untuk teks */
+    text-align: center;
+    padding: 50px 0;
+  }
+  .jumbotron h1 {
+    font-size: 36px;
+  }
+  .jumbotron p {
+    font-size: 18px;
+  }
+  /* CSS untuk Bagian Konten */
+  .container {
+    padding: 20px;
+  }
+  .container h2 {
+    text-align: center;
+  }
+  /* CSS untuk Formulir Kontak */
+  form {
+    background-color: #FFF8DC; /* Warna krem untuk latar belakang formulir */
+    padding: 20px;
+    border-radius: 5px;
+  }

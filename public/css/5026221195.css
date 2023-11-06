@@ -1,0 +1,43 @@
+.logo {
+    text-align: center;
+}
+
+.jarak {
+    margin: 80px;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.jarak1 {
+    margin: 30px;
+}
+
+.bcolor{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size:larger;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(50, 47, 47);;
+    border-radius: 15px;
+    background-color: rgb(50, 47, 47);
+    padding: 15px 0px 15px 0px;
+    margin: 0px 400px 15px 400px;
+}
+
+a:hover{
+    display: block;
+    text-align: center;
+    color: rgb(50, 47, 47);
+    font-size:larger;
+    text-decoration: none;
+    border-style: solid;
+    border-color:rgb(50, 47, 47);
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px 0px 15px 0px;
+    margin: 0px 400px 15px 400px;
+}
