@@ -69,5 +69,39 @@ Route::get('/ETS', function () {
     return view('ETS');
 });
 
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/formulir', function () {
+    return view('formulir');
+});
+
+Route::get('/tentang', function () {
+    return view('tentang');
+});
+
+Route::get('/kontak', function () {
+    return view('kontak');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/blog1', function () {
+    return view('blog1');
+});
+
 Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
 Route::get('show', 'App\Http\Controllers\DosenController@showBlog');
+
+Route::get('/pegawai/{nama}', 'App\Http\Controllers\DosenController@shownama');
+
+Route::get('/formulir/{nama}', 'App\Http\Controllers\DosenController@pegawai');
+Route::post('/formulir/proses', 'App\Http\Controllers\DosenController@proses');
+
+// route blog
+Route::get('/blog', 'App\Http\Controllers\DosenController@home');
+Route::get('/blog/tentang', 'App\Http\Controllers\DosenController@tentang');
+Route::get('/blog/kontak', 'App\Http\Controllers\DosenController@kontak');
