@@ -23,7 +23,7 @@
 		</tr>
 		@foreach($pegawai as $p)
 		<tr>
-			<td>{{ $p->pegawai_nama}}</td>
+			<td>{{ $p->pegawai_nama }}</td>
 			<td>{{ $p->pegawai_jabatan }}</td>
 			<td>{{ $p->pegawai_umur }}</td>
 			<td>{{ $p->pegawai_alamat }}</td>
