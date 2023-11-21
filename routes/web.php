@@ -105,3 +105,6 @@ Route::post('/formulir/proses', 'App\Http\Controllers\DosenController@proses');
 Route::get('/blog', 'App\Http\Controllers\DosenController@home');
 Route::get('/blog/tentang', 'App\Http\Controllers\DosenController@tentang');
 Route::get('/blog/kontak', 'App\Http\Controllers\DosenController@kontak');
+
+//route CRUD
+Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
