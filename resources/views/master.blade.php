@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>5026221195 - Rafief Chalvani</title>
+
+	<title>@yield('title')</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -15,7 +13,32 @@
 </head>
 <body>
 <div class="container">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">5026221196 - Rafief Chalvani</a>
 
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Database
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/pegawai">pegawai</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
     <header>
 
 		<h2>Blog MalasNgoding</h2>
@@ -34,9 +57,6 @@
 	<!-- bagian judul halaman blog -->
 	<h3> @yield('judul_halaman') </h3>
 
-@yield('header')
-
-@yield('isihalaman')
 
 <!-- bagian konten blog -->
 @yield('konten')
@@ -49,5 +69,3 @@
     <p>&copy; <a href="https://www.malasngoding.com">www.malasngoding.com</a>. 2018 - 2019</p>
 </footer>
 </div>
-</body>
-</html>

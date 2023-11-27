@@ -5,15 +5,6 @@
             @Ankayu.id | Linktree
         </title>
         <body>
-
-            <h1>
-                Nama: {{ $nama }} -
-                Alamat: {{ $alamat }} -
-                Umur: {{ $umur }}
-            </h1>
-
-            <div class="jarak">
-
             </div>
             <div class="logo">
                 <img src="{{ asset('gambar/logo ankayu.jpg') }}" width="100" class="radius">
