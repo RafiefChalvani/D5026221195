@@ -10,7 +10,7 @@
 	<br/>
 	<br/>
 
-	<form action="/pegawai/store" method="post" class = "form-horizontal">
+	<form action="/pegawai/store" method="post" class = "form-horizontal" role="form">
 		{{ csrf_field() }}
         <div class = "form-group">
             <label for = "firstname" class = "col-sm-2 control-label">Nama</label>
@@ -36,7 +36,7 @@
                <input name="alamat" type = "text" class = "form-control" id = "nama" placeholder = "Masukkan Alamat">
             </div>
          </div>
-		<input type="submit" value="OK">
+		<input type="submit" value="OK" class="btn btn-primary">
 	</form>
 
 
