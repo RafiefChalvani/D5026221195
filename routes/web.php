@@ -106,7 +106,7 @@ Route::get('/blog', 'App\Http\Controllers\DosenController@home');
 Route::get('/blog/tentang', 'App\Http\Controllers\DosenController@tentang');
 Route::get('/blog/kontak', 'App\Http\Controllers\DosenController@kontak');
 
-//route CRUD
+//route CRUD Pegawai
 Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
 Route::get('/pegawai/tambah','App\Http\Controllers\PegawaiController@tambah');
 Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
@@ -117,3 +117,8 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+
+//route CRUD Nilai Kuliah
+Route::get('/nilaikuliah','App\Http\Controllers\nilaikuliahController@index');
+Route::get('/nilaikuliah/tambah2','App\Http\Controllers\nilaikuliahController@tambah2');
+Route::post('/nilaikuliah/store','App\Http\Controllers\nilaikuliahController@store');
