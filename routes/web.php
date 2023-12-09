@@ -122,3 +122,8 @@ Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 Route::get('/nilaikuliah','App\Http\Controllers\nilaikuliahController@index');
 Route::get('/nilaikuliah/tambah2','App\Http\Controllers\nilaikuliahController@tambah2');
 Route::post('/nilaikuliah/store','App\Http\Controllers\nilaikuliahController@store');
+
+//route CRUD Lampu
+Route::get('/lampu','App\Http\Controllers\lampuController@index3');
+Route::get('/lampu/tambah3','App\Http\Controllers\lampuController@tambah3');
+Route::post('/lampu/store','App\Http\Controllers\lampuController@store');
