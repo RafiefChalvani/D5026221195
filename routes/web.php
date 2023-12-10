@@ -127,3 +127,9 @@ Route::post('/nilaikuliah/store','App\Http\Controllers\nilaikuliahController@sto
 Route::get('/lampu','App\Http\Controllers\lampuController@index3');
 Route::get('/lampu/tambah3','App\Http\Controllers\lampuController@tambah3');
 Route::post('/lampu/store','App\Http\Controllers\lampuController@store');
+
+//route CRUD Keranjang
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index4');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
+Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
