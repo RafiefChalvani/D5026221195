@@ -29,5 +29,4 @@
 		</tr>
 		@endforeach
 	</table>
-    {{ $lampu -> links() }}
     @endsection

@@ -11,9 +11,7 @@ class LampuController extends Controller
 	public function index3()
 	{
     	// mengambil data dari table lampu
-		// $lampu = DB::table('lampu')->get();
-
-        $lampu = DB::table('lampu')->paginate(10);
+		 $lampu = DB::table('lampu')->get();
 
     	// mengirim data lampu ke view index2
 		return view('index3',['lampu' => $lampu]);
