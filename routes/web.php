@@ -133,3 +133,7 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index4'
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+//route CRUD Kategori
+Route::get('/kategori','App\Http\Controllers\KategoriController@index5');
+Route::post('/kategori/hasil','App\Http\Controllers\KategoriController@hasil');
